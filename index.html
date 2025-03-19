@@ -9,10 +9,19 @@
         margin: 0;
         box-sizing: border-box;
         }
-        
+        .container {
+            width: 80%;
+            height: 1000px;
+            margin: 0 auto;
+            background-color: bisque;
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+        }
+
         #profile {
-            width: 50%;
-            height: 50%;
+            width: 250px;
+            height: 250px;
             border-radius: 50%;
             border: 3px solid #333;
             max-width: 250px;
@@ -29,10 +38,10 @@
             padding: 15px;
             border-radius: 10px;
             box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-            width: 25%;
             max-width: 250px;
             text-align: center;
-            margin: 20px;
+            margin-top: 0px;
+            margin-left: 20px;
         }
         .personalinfo p {
         margin-bottom: 15px;
@@ -46,7 +55,7 @@
             margin: 10px;
             border-radius: 10px;
             box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-            width: 25%;
+            width: 250px;
             max-width: 250px;
             text-align: center;
             margin: 20px;
@@ -59,35 +68,140 @@
         a {
             text-decoration: none;
         }
+        .perfil{
+            background: #f4f4f4;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+            width: 250px;
+            max-width: 250px;
+            text-align: center;
+            margin: 20px;
+        }
+        .perfil h2 {
+        margin-bottom: 15px;
+        }
+        .educacion {
+            background: #f4f4f4;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+            width: 250px;
+            max-width: 250px;
+            text-align: center;
+            margin: 20px;
+        }
+        .educacion h2 {
+        margin-bottom: 15px;
+        }
+        .educacion ul {
+            padding-left: 10px; 
+        }
+
+        .educacion li {
+            margin-bottom: 5px; 
+            padding-left: 5px; 
+        }
+        .tecnologico {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: #f4f4f4;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+            width: 250px;
+            max-width: 250px;
+            text-align: center;
+            margin: 20px;
+        }
+
+        .stack-item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            margin: px 0;
+        }
+
+        .stack-item p {
+            font-size: 16px;
+            font-family: Arial, sans-serif;
+            font-weight: bold;
+        }
+                .tecnologico img {
+
+            margin: 10px;
+        }
     </style>
 </head>
 <body>
-    <img src="https://avatars.githubusercontent.com/u/77449506?s=400&u=" class="profile-img" id="profile">
-    <div class="personalinfo">
-        <h2>Datos Personales</h2>
-        <p><strong>Nombre:</strong> Fabio Andrés</p>
-        <p><strong>Apellidos:</strong> Hernández Manrique</p>
-        <p><strong>Email:</strong> fabixhernandez20@gmail.com</p>
-        <p><strong>Telefono:</strong> +57 315 8325271</p>
-        <p><strong>Dirección:</strong> Calle 60 #9-143</p>
-        <p><strong>Ciudad:</strong> Bucaramanga</p>
-    </div>
-    <div class="redesSociales">
-        <h2>Redes Sociales</h2>
-        <a href="https://github.com/fabioo-hm" target="_blank">
-        <img src="imagenes/github.png">
-        </a>
-        <a href="https://www.instagram.com/fabioo.hm/" target="_blank">
-        <img src="imagenes/instagram.png">
-        </a>
-        <br>
-        <a href="https://www.facebook.com/people/Fabio-Hernandez/pfbid0KFmxTx1mnEdju5mq6n9jU6jKKq4QmLwbaZtfF7Rz2cAcdmDgkCBTBNmcnhsWsH25l/" target="_blank">
-        <img src="imagenes/facebook.png">
-        </a>
-        <a href="https://www.linkedin.com/in/fabio-andr%C3%A9s-hern%C3%A1ndez-manrique-713299357/" target="_blank">
-        <img src="imagenes/linkedIn.png">
-        </a>
-        </br>
+    <div class="container">
+        <div class="izquierda">
+            <img src="https://avatars.githubusercontent.com/u/77449506?s=400&u=" class="profile-img" id="profile">
+            <div class="personalinfo">
+                <h2>Datos Personales</h2>
+                <p><strong>Nombre:</strong> Fabio Andrés</p>
+                <p><strong>Apellidos:</strong> Hernández Manrique</p>
+                <p><strong>Email:</strong> fabixhernandez20@gmail.com</p>
+                <p><strong>Telefono:</strong> +57 315 8325271</p>
+                <p><strong>Dirección:</strong> Calle 60 #9-143</p>
+                <p><strong>Ciudad:</strong> Bucaramanga</p>
+            </div>
+            <div class="redesSociales">
+                <h2>Redes Sociales</h2>
+                <a href="https://github.com/fabioo-hm" target="_blank">
+                <img src="imagenes/github.png">
+                </a>
+                <a href="https://www.instagram.com/fabioo.hm/" target="_blank">
+                <img src="imagenes/instagram.png">
+                </a>
+                <br>
+                <a href="https://www.facebook.com/people/Fabio-Hernandez/pfbid0KFmxTx1mnEdju5mq6n9jU6jKKq4QmLwbaZtfF7Rz2cAcdmDgkCBTBNmcnhsWsH25l/" target="_blank">
+                <img src="imagenes/facebook.png">
+                </a>
+                <a href="https://www.linkedin.com/in/fabio-andr%C3%A9s-hern%C3%A1ndez-manrique-713299357/" target="_blank">
+                <img src="imagenes/linkedIn.png">
+                </a>
+                </br>
+            </div>
+        </div>
+        <div class="derecha">
+            <div class="perfil">
+                <h2>Perfil</h2>
+                <p>Soy apasionado por la tecnología y el desarrollo web, con conocimientos en programación y un enfoque en el aprendizaje continuo. Destaco por mi creatividad, capacidad de adaptación y resolución de problemas. Me motiva mejorar mis habilidades y aplicar soluciones prácticas que optimicen la experiencia del usuario. Me gusta trabajar en equipo y aprender de nuevos desafíos.</p>
+            </div>
+            <div class="educacion">
+                <h2>Educación</h2>
+                <ul>
+                    <li><p><strong>Bachiller Bilingüe</strong>- Colegio Bilingüe La Consolata <br>Bucaramanga | 2024</p></li>
+                    <li><p><strong>Certificación B2 en Inglés</strong>– Cambridge (PET)</p></li>
+                </ul>
+            </div>
+            <div class="tecnologico">
+                <h2>Stack Tecnológico</h2>
+                <div class="stack-item">
+                    <img src="imagenes/html.png" width="50px">
+                    <p>HTML - Básico</p>
+                </div>
+                <div class="stack-item">
+                    <img src="imagenes/css.png" width="36.8px">
+                    <p>CSS - Básico</p>
+                </div>
+                <div class="stack-item">
+                    <img src="imagenes/linux.png" width="40px">
+                    <p>Linux - Básico</p>
+                </div>
+                <div class="stack-item">
+                    <img src="imagenes/GitHub.png" width="48px">
+                    <p>GitHub - Básico</p>
+                </div>
+                <div class="stack-item">
+                    <img src="imagenes/python.png" width="48px">
+                    <p>Python - Básico</p>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
