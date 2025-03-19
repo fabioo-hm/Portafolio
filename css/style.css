@@ -1,0 +1,150 @@
+body{
+    background-color: #acaaaa;
+}
+*{
+margin: 0;
+box-sizing: border-box;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.izquierda {
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.derecha {
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#profile {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 3px solid #333;
+    max-width: 250px;
+    margin: 20px;
+}
+h2 {
+    font-family: Arial, sans-serif;
+}
+p {
+    font-family: Arial, sans-serif;
+}
+.personalinfo {
+    background: #f4f4f4;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 20px;
+}
+.personalinfo p {
+margin-bottom: 15px;
+}
+.redesSociales {
+    background: #f4f4f4;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 35px;
+}
+.redesSociales img {
+    width: 13%;
+    height: 13%;
+    margin: 10px;
+}
+a {
+    text-decoration: none;
+}
+.perfil{
+    background: #f4f4f4;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    text-align: center;
+    margin: 20px;
+}
+hr{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.educacion {
+    background: #f4f4f4;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    text-align: center;
+    margin: 20px;
+}
+.educacion ul {
+    padding-left: 25px; 
+}
+
+.educacion li {
+    margin-bottom: 5px; 
+    padding-left: 5px; 
+}
+.tecnologico{
+    display: flex;
+    flex-direction: column;
+    background: #f4f4f4;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    text-align: center;
+    margin: 20px;
+}
+
+.stack-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: px 0;
+}
+
+.stack-item p {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+.tecnologico img {
+    margin: 10px;
+}
+.boton {
+    background: #f4f4f4;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    text-align: center;
+    margin: 20px;
+}
+.boton a{
+    color: black;
+}
+.boton:hover{
+    background-color: rgb(189, 189, 189);
+}
